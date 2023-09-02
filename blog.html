@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>blog</title>
+</head>
+<body>
+  <header>
+    <h1 class="text-center lg:text-3xl font-bold my-5 py-5">Blog Question and Answer</h1>
+  </header>
+  <main class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24">
+    <div class="collapse collapse-arrow bg-base-200 my-5">
+      <input type="radio" name="my-accordion-2" checked="checked" /> 
+      <div class="collapse-title text-xl font-medium">
+        What is var, let, const?
+      </div>
+      <div class="collapse-content my-5"> 
+        <span class="font-bold text-black">Var</span>
+        <p class="py-5"> Variables declared with var are function-scoped. This means they are only accessible within the function in which they are defined. If declared outside any function, they become global variables and are accessible throughout the entire program.</p>
+        <span class="font-bold text-black">Let</span>
+        <p class="py-5">The let keyword is used to declare variables in JavaScript with block-level scope. Block scope means that a variable declared with let is only accessible within the block (enclosed by curly braces) where it's defined. This behavior provides more predictable and localized variable access compared to the older var keyword.</p>
+        <span class="font-bold text-black">Const</span>
+        <P class="py-5">The const keyword is used to declare variables in JavaScript with block-level scope, just like let. However, const has some unique characteristics related to immutability and reassignment.</P>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200 my-5">
+      <input type="radio" name="my-accordion-2" /> 
+      <div class="collapse-title text-xl font-medium">
+        Tell us the use cases of Null and Undefined?
+      </div>
+      <div class="collapse-content"> 
+        <span class="font-bold text-black">Null</span>
+        <p class="py-5">Null is a primitive value in JavaScript that represents the intentional absence of any object value or a variable having no assigned value.</p>
+        <span class="font-bold text-black">undefined</span>
+        <p class="py-5">Undefined is another primitive value in JavaScript. It represents a variable that has been declared but has not been assigned a value, or it can be the value returned from a function that doesn't explicitly return anything.</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200 my-5">
+      <input type="radio" name="my-accordion-2" /> 
+      <div class="collapse-title text-xl font-medium">
+        What do you mean by REST API?
+      </div>
+      <div class="collapse-content">
+        <span class="font-bold text-black">REST API</span>
+        <p class="py-5">REST API stands for "Representational State Transfer Application Programming Interface." It is an architectural style for designing networked applications, and it is based on a set of principles and constraints that help create scalable, stateless, and well-structured web services. REST is not a standard, but rather a set of guidelines and best practices commonly used in web development.</p>
+      </div>
+    </div>
+    <div class="my-5 text-center">
+      <a href="index.html"><button class= "text-center  text-2xl text-white px-2 py-2 rounded-lg bg-red-500">Previous Page</button></a>
+    </div>
+  </main>
+</body>
+</html>
